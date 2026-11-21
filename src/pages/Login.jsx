@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Registration.css'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
   const[email, setEmail] = useState("");
   const[password, setPassword] = useState("");
@@ -59,6 +59,7 @@ const Login = () => {
               Login Now
             </button>
           </form>
+          <Link to={"/registration"}><button>Registration</button></Link>
       </div>
     </div>
   )
