@@ -45,7 +45,7 @@ const Registration = () => {
 
     localStorage.setItem("user", JSON.stringify(user));
     alert("Registration Successfull");
-    navigate("/login");
+    navigate("/");
   }
 
   return (

@@ -13,7 +13,7 @@ const Login = () => {
 
     if(email === user.basicDetails.email && password === user.basicDetails.password){
       alert("Login Successfull");
-      navigate("/");
+      navigate("/home");
     }else {
       alert("Invalid Credentials");
     }
